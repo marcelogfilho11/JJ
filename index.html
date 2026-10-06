@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JJ — Jornal Jovem. Informação para entender o Brasil e o mundo sem complicação.">
+  <title>JJ — Jornal Jovem</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <span>Terça-feira, 06 de outubro</span>
+      <span class="top-live"><i></i> Informação em foco</span>
+      <span>JJ — Jornal Jovem</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-main">
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a class="brand" href="#">
+        <span class="brand-mark">JJ</span>
+        <span class="brand-name">JORNAL <b>JOVEM</b></span>
+      </a>
+
+      <div class="header-actions">
+        <button class="search-trigger" id="searchTrigger" aria-label="Pesquisar">
+          <span>Pesquisar</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.8"></circle><path d="m16.2 16.2 5 5"></path></svg>
+        </button>
+        <button class="live-btn" id="liveBtn"><span class="pulse"></span> AO VIVO</button>
+      </div>
+    </div>
+
+    <nav class="nav" id="mainNav">
+      <div class="container nav-inner">
+        <a class="active" href="#inicio">Início</a>
+        <a href="#politica">Política</a>
+        <a href="#brasil">Brasil</a>
+        <a href="#mundo">Mundo</a>
+        <a href="#economia">Economia</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#esportes">Esportes</a>
+        <a href="#entenda">Entenda</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero container">
+      <div class="hero-main">
+        <div class="hero-image image-city">
+          <span class="tag">POLÍTICA</span>
+          <div class="hero-overlay">
+            <p class="eyebrow">JJ EXPLICA</p>
+            <h1>Política não precisa ser complicada: entenda como as decisões de Brasília chegam até você</h1>
+            <p class="hero-summary">Um guia rápido para jovens que querem acompanhar o que acontece no país e entender por que isso importa.</p>
+            <div class="meta"><span>06/10/2026</span><span>•</span><span>6 min de leitura</span></div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <article class="side-card">
+          <div class="mini-image image-economy"><span class="tag small">ECONOMIA</span></div>
+          <div class="side-content">
+            <span class="category">ECONOMIA</span>
+            <h2>Inflação: o que muda no seu bolso quando os preços sobem?</h2>
+            <span class="meta">5 min de leitura</span>
+          </div>
+        </article>
+        <article class="side-card">
+          <div class="mini-image image-tech"><span class="tag small">TECNOLOGIA</span></div>
+          <div class="side-content">
+            <span class="category">TECNOLOGIA</span>
+            <h2>IA generativa: onde ela já aparece no cotidiano dos jovens</h2>
+            <span class="meta">4 min de leitura</span>
+          </div>
+        </article>
+      </aside>
+    </section>
+
+    <section class="ticker">
+      <div class="container ticker-inner">
+        <strong>EM DESTAQUE</strong>
+        <div class="ticker-track">
+          <span>Como funciona o Congresso?</span>
+          <span>•</span>
+          <span>O que é voto consciente?</span>
+          <span>•</span>
+          <span>Mercado de trabalho para jovens</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="politica">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">INFORMAÇÃO SEM ENROLAÇÃO</span>
+          <h2>Últimas notícias</h2>
+        </div>
+        <a href="#" class="view-all">Ver todas <span>→</span></a>
+      </div>
+
+      <div class="news-layout">
+        <div class="news-grid">
+          <article class="news-card featured-card">
+            <div class="card-image image-congress"><span class="tag">POLÍTICA</span></div>
+            <div class="card-body">
+              <span class="time">12 MIN ATRÁS</span>
+              <h3>Congresso em foco: por que um projeto de lei pode mudar sua rotina?</h3>
+              <p>Veja o caminho de uma proposta e quais são as etapas até ela virar uma lei.</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="card-image image-vote"><span class="tag">CIDADANIA</span></div>
+            <div class="card-body">
+              <span class="time">28 MIN ATRÁS</span>
+              <h3>Voto consciente: 5 perguntas para fazer antes de escolher um candidato</h3>
+              <p>Informação, propostas e histórico: o que vale observar?</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="card-image image-school"><span class="tag">EDUCAÇÃO</span></div>
+            <div class="card-body">
+              <span class="time">1 HORA ATRÁS</span>
+              <h3>Educação financeira: por que esse assunto importa antes do primeiro salário?</h3>
+              <p>Conceitos básicos para começar a cuidar melhor do próprio dinheiro.</p>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="card-image image-climate"><span class="tag">SOCIEDADE</span></div>
+            <div class="card-body">
+              <span class="time">2 HORAS ATRÁS</span>
+              <h3>Eventos climáticos extremos: como as cidades estão se preparando?</h3>
+              <p>Entenda o papel das políticas públicas na prevenção de riscos.</p>
+            </div>
+          </article>
+        </div>
+
+        <aside class="most-read">
+          <div class="most-read-title">
+            <span>01</span>
+            <h3>Mais lidas</h3>
+          </div>
+          <ol>
+            <li><span>01</span><a href="#">O que realmente faz um vereador?</a></li>
+            <li><span>02</span><a href="#">Entenda a diferença entre Executivo, Legislativo e Judiciário</a></li>
+            <li><span>03</span><a href="#">Como identificar uma notícia falsa nas redes sociais</a></li>
+            <li><span>04</span><a href="#">Impostos: por que existem e para onde vai o dinheiro?</a></li>
+            <li><span>05</span><a href="#">Primeiro emprego: direitos que todo jovem deveria conhecer</a></li>
+          </ol>
+        </aside>
+      </div>
+    </section>
+
+    <section class="understand-section" id="entenda">
+      <div class="container understand-grid">
+        <div>
+          <span class="section-kicker light">PARA QUEM QUER ENTENDER</span>
+          <h2>Política em 5 minutos.</h2>
+          <p>Glossário, contexto e explicações diretas para você acompanhar as notícias sem precisar conhecer todos os termos.</p>
+          <button class="primary-btn" id="quizBtn">Testar meus conhecimentos <span>→</span></button>
+        </div>
+        <div class="concepts">
+          <button class="concept" data-term="Congresso Nacional" data-definition="É formado pela Câmara dos Deputados e pelo Senado Federal. Entre suas funções estão criar leis e fiscalizar o governo."><b>01</b><span>Congresso</span><i>+</i></button>
+          <button class="concept" data-term="PEC" data-definition="Proposta de Emenda à Constituição. É uma proposta para alterar a Constituição e segue regras específicas de tramitação."><b>02</b><span>O que é uma PEC?</span><i>+</i></button>
+          <button class="concept" data-term="Políticas públicas" data-definition="São ações e programas do poder público criados para enfrentar problemas e atender necessidades da população."><b>03</b><span>Políticas públicas</span><i>+</i></button>
+          <button class="concept" data-term="Imposto" data-definition="É um tributo cobrado pelo poder público para financiar serviços e atividades do Estado, conforme a legislação."><b>04</b><span>Impostos</span><i>+</i></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="brasil">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">DO BRASIL AO MUNDO</span>
+          <h2>Também acontece</h2>
+        </div>
+      </div>
+      <div class="horizontal-news">
+        <article><div class="horizontal-image image-world"></div><div><span class="category">MUNDO</span><h3>Como decisões internacionais podem afetar o Brasil?</h3><p>Entenda a relação entre comércio, diplomacia e vida cotidiana.</p></div></article>
+        <article><div class="horizontal-image image-jobs"></div><div><span class="category">TRABALHO</span><h3>As profissões que estão surgindo com as novas tecnologias</h3><p>O mercado muda — e novas habilidades ganham espaço.</p></div></article>
+        <article><div class="horizontal-image image-culture"></div><div><span class="category">CULTURA</span><h3>Por que cultura também é assunto de política pública?</h3><p>Do cinema às bibliotecas, veja onde o Estado entra nessa história.</p></div></article>
+      </div>
+    </section>
+
+    <section class="newsletter container">
+      <div>
+        <span class="section-kicker">JJ NA SUA CAIXA DE ENTRADA</span>
+        <h2>Entenda o mundo sem perder horas.</h2>
+        <p>Receba uma seleção das principais notícias e explicações da semana.</p>
+      </div>
+      <form id="newsletterForm">
+        <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+        <button type="submit">Quero receber</button>
+        <small id="formMessage"></small>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#"><span class="brand-mark">JJ</span><span class="brand-name">JORNAL <b>JOVEM</b></span></a>
+        <p>Informação para uma geração que quer participar, questionar e entender.</p>
+      </div>
+      <div><h4>Conteúdo</h4><a href="#politica">Política</a><a href="#brasil">Brasil</a><a href="#entenda">Entenda</a></div>
+      <div><h4>JJ</h4><a href="#">Sobre nós</a><a href="#">Código de ética</a><a href="#">Contato</a></div>
+      <div><h4>Siga o JJ</h4><div class="socials"><a href="#">IG</a><a href="#">YT</a><a href="#">TT</a></div></div>
+    </div>
+    <div class="container copyright">© 2026 JJ — Jornal Jovem. Projeto demonstrativo.</div>
+  </footer>
+
+  <div class="search-modal" id="searchModal" aria-hidden="true">
+    <div class="search-box">
+      <button class="close-modal" id="closeSearch">×</button>
+      <span class="section-kicker">PESQUISAR NO JJ</span>
+      <h2>O que você quer entender?</h2>
+      <input type="search" id="searchInput" placeholder="Ex.: política, eleições, economia...">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
